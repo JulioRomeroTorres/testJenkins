@@ -3,15 +3,23 @@ pipeline{
   {
     stages{
       stage("build"){
-        echo ´Raa build´
+        steps{
+          echo 'Raa build'
+        }
+        
       }
 
       stage("test"){
-        echo ´Raa test´
+        steps{
+          echo 'Raa test'
+        }
       }
       
       stage("deploy"){
-        echo ´Raa deploy´
+
+        steps{
+          echo 'Raa deploy'
+        }
       }
       
     }
