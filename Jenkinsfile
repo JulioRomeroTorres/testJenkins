@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage("build"){
             steps{
-                echo 'Raa build'
+                echo 'Raa Mongol build'
             }
         }
 
