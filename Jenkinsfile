@@ -1,0 +1,22 @@
+pipeline{
+  agent any
+    stages{
+        stage("build"){
+            steps{
+                echo 'Raa build'
+            }
+        }
+
+        stage("test"){
+            steps{
+            echo 'Raa test'
+            }
+        }
+      
+        stage("deploy"){
+            steps{
+            echo 'Raa deploy'
+            }
+        }
+    }
+}
